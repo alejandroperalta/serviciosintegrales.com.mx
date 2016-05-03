@@ -130,7 +130,7 @@
                             <span style="display:block;text-align:center;"><img src="images/dir2.png" alt="" width="60%" /></span>
                             </div>
                             <h5>Ignacio Joya</h5>
-                            <div class="directorio_desc">Soporte Técnico <br> <strong>Correo:</strong><br>.com.mx</div>
+                            <div class="directorio_desc">Soporte Técnico <br> <strong>Correo:</strong><br>ingnacio.joya@serviciosintwgrales.com.mx</div>
                         </div>
                         <div class="directorio span4">
                             <div class="picframe">
