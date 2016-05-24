@@ -40,7 +40,7 @@
       });
 
       $('#change-speed').on('click', function() {
-        var $p1 = $('contpaqi').first(),
+        var $p1 = $('contpaqi1').first(),
             p1Opts = $p1.smoothScroll('options') || {};
 
         p1Opts.speed = p1Opts.speed === 1400 ? 400 : 1400;
@@ -55,10 +55,8 @@
         return false;
       });
       $('button.scrollhorz').click(function() {
-        $.smoothScroll({
-          direction: 'left',
-          scrollElement: $('div.scrollme'),
-          scrollTarget: '.horiz'
+        
+          
         });
         return false;
       });
@@ -98,11 +96,11 @@
                     </li>
                     <li><a href="#" title="Servicios">Servicios</a>
                         <ul>
-                            <li><a href="#">Capacitaciones</a></li>
+                            <li><a href="capacitaciones.php">Capacitaciones</a></li>
                             <li><a href="descargas.php">Descargas</a></li>
                         </ul>
                     </li>
-                    <li><a href="#" title="Productos">Productos</a></li>
+                    <li><a href="productos.php" title="Productos">Productos</a></li>
                 </ul>
             </div>
         </header>
@@ -111,7 +109,7 @@
             <div class="container">
                 <div class="row">
                     <div class="span12">
-                        <h1>Sistemas CASA</h1>
+                        <h1><a href="https://www.facebook.com/pages/Servicios-Integrales-En-Internet-Y-Computo-De-M%C3%A9xico/101090743293750?fref=ts" original-title="Obten 100MB en Tamaño de Disco, 1 Base de Datos y 1 Cuenta de Correo solamente dando like a la pagina de Facebook de SIICOM-MX." class="tooltip" target="_blank"><img src="https://lh3.googleusercontent.com/-H8xMuAxM-bE/UefWwJr2vwI/AAAAAAAAEdY/N5I41q19KMk/s32-no/facebook.png"></a></h1>
                         <span>Servicios Integrales en Internet y Cómputo de México</span>
                         <ul class="crumb">
                             <li><a href="index.php">Inicio</a></li>
@@ -144,7 +142,7 @@
                 </div>
             </div>
             <!-- ================================== -->
-            <div id="contpaqi" class="casa container col-md-4 col-md-pull-4">
+            <div id="contpaqi1" class="casa container col-md-4 col-md-pull-4">
                 <div class="content">
                 <a class="col-md-1" href="#csaawin"><img width="15%" src="images/csaaiwin.png" style="width:10%;height:10%;"alt=""></a>
                 <a class="col-md-1" href="#ctrawin"><img width="15%" src="images/ctrawin.png" style="width:10%;height:10%;" alt=""></a>

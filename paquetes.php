@@ -9,7 +9,8 @@
     <!-- CSS Files -->
     <link rel="stylesheet" href="css/main.css" type="text/css" id="main-css">
     <link rel="stylesheet" href="css/wide-screen.css" type="text/css" id="wide">
-
+    <!--modals%scripts-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <!-- Javascript Files -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -60,16 +61,16 @@
                         <ul>
                             <li><a href="contpaqi.php">CONTPAQ i</a></li>
                             <li><a href="casa.php">Sistema CASA</a></li>
-                            <li><a href="reco.php">Sistemas ROCO</a></li>
+                            <li><a href="reco.php">Sistemas RECO</a></li>
                         </ul>
                     </li>
                     <li><a href="#" title="Servicios">Servicios</a>
                         <ul>
-                            <li><a href="#">Capacitaciones</a></li>
+                            <li><a href="capacitaciones.php">Capacitaciones</a></li>
                             <li><a href="descargas.php">Descargas</a></li>
                         </ul>
                     </li>
-                    <li><a href="#" title="Productos">Productos</a></li>
+                    <li><a href="productos.php" title="Productos">Productos</a></li>
                 </ul>
             </div>
         </header>
@@ -78,18 +79,44 @@
             <div class="container">
                 <div class="row">
                     <div class="span12">
-                        <h1>Paquetes</h1>
+                        <h1><a href="http://www.twitter.com/home?status=" original-title="Obten 100MB en Tamaño de Disco, 1 Base de Datos y 1 Cuenta de Correo solamente siguiendonos en la pagina de twitter de SIICOM-MX." class="tooltip" target="_blank"><img src="https://lh5.googleusercontent.com/-xZVxH6CsUaQ/UefWwgi8o3I/AAAAAAAAEdk/reo5XS6z8-8/s32-no/twitter.png"></a>
+                        <a href="https://www.facebook.com/pages/Servicios-Integrales-En-Internet-Y-Computo-De-M%C3%A9xico/101090743293750?fref=ts" original-title="Obten 100MB en Tamaño de Disco, 1 Base de Datos y 1 Cuenta de Correo solamente dando like a la pagina de Facebook de SIICOM-MX." class="tooltip" target="_blank"><img src="https://lh3.googleusercontent.com/-H8xMuAxM-bE/UefWwJr2vwI/AAAAAAAAEdY/N5I41q19KMk/s32-no/facebook.png"></a></h1>
                         <span>Servicios Integrales en Internet y Cómputo de México</span>
                         <ul class="crumb">
                             <li><a href="index.php">Inicio</a></li>
                             <li class="sep">|</li>
                             <li>Paquetes</li>
+                            <li class="sep">|</li>
+                            <li><button type="button" class="button special"  data-toggle="modal" data-target="#myModal">Entrar</button></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-
+        <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="login-page">
+  <div class="form1">
+    <form class="register-form">
+      <input type="text" placeholder="Nombre" required />
+      <input type="text" placeholder="Nombre de usuario" required />
+      <input type="password" placeholder="Contraseña" required />
+      <input type="email" placeholder="E-mail" required />
+      <button>crear cuenta</button>
+      <p class="message">Ya estas registrado? <a href="#">Entra</a></p>
+    </form>
+    <form class="login-form">
+      <input type="text" placeholder="Nombre de usuario" required/>
+      <input type="password" placeholder="Contraseña" required/>
+      <button>Iniciar</button>
+      <p class="message">No estas registrado? <a href="#">Crea una cuenta</a></p>
+    </form>
+  </div>
+</div>
+      
+    </div>
+  </div>   
         <article class="Article">
             <div id="content" class="no-bottom">
                 <div class="container">
@@ -380,13 +407,10 @@
                     <p class="Paq_Free" label="free">Obten <strong>100MB en Tamaño de Disco, 1 Base de Datos y 1 Cuenta de Correo</strong> solamente dando like a la pagina de Facebook de SIICOM-MX.</p>
 
                     <div class="fb-like" data-href="https://www.facebook.com/pages/Servicios-Integrales-En-Internet-Y-Computo-De-M%C3%A9xico/101090743293750?fref=ts" data-layout="standard" data-action="like" data-show-faces="false" data-share="false"></div>
-
                 </div>
             </div>
         </article>
-        
         </div>
-        
         <footer class="subfooter">
             <div class="container">
                 <div class="row">
@@ -400,6 +424,11 @@
     
     <script type="text/javascript">
         document.oncontextmenu = function(){return false;}
+    </script>
+    <script>
+        $('.message a').click(function(){
+   $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+});
     </script>
 </body>
 </html>

@@ -51,16 +51,16 @@
                         <ul>
                             <li><a href="contpaqi.php">CONTPAQ i</a></li>
                             <li><a href="casa.php">Sistema CASA</a></li>
-                            <li><a href="reco.php">Sistemas ROCO</a></li>
+                            <li><a href="reco.php">Sistemas RECO</a></li>
                         </ul>
                     </li>
                     <li><a href="#" title="Servicios">Servicios</a>
                         <ul>
-                            <li><a href="#">Capacitaciones</a></li>
+                            <li><a href="capacitaciones.php">Capacitaciones</a></li>
                             <li><a href="descargas.php">Descargas</a></li>
                         </ul>
                     </li>
-                    <li><a href="#" title="Productos">Productos</a></li>
+                    <li><a href="productos.php" title="Productos">Productos</a></li>
                 </ul>
             </div>
         </header>

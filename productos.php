@@ -56,7 +56,7 @@
                             <li><a href="casa.php">Sistema CASA</a></li>
                             <li><a href="reco.php">Sistemas RECO</a></li>
                         </ul>
-                    </li>
+                    </li>   |1  
                     <li><a href="#" title="Servicios">Servicios</a>
                         <ul>
                             <li><a href="capacitaciones.php">Capacitaciones</a></li>
@@ -71,7 +71,7 @@
             <div class="container">
                 <div class="row">
                     <div class="span12">
-                        <h1><a href="https://www.facebook.com/pages/Servicios-Integrales-En-Internet-Y-Computo-De-M%C3%A9xico/101090743293750?fref=ts" original-title="Obten 100MB en Tamaño de Disco, 1 Base de Datos y 1 Cuenta de Correo solamente dando like a la pagina de Facebook de SIICOM-MX." class="tooltip" target="_blank"><img src="https://lh3.googleusercontent.com/-H8xMuAxM-bE/UefWwJr2vwI/AAAAAAAAEdY/N5I41q19KMk/s32-no/facebook.png"></a></h1>
+                        <h1><a href="https://www.facebook.com/pages/Servicios-Integrales-En-Internet-Y-Computo-De-M%C3%A9xico/101090743293750?fref=ts" original-title="Obten 100MB en Tamaño de Disco, 1 Base de Datos y 1 Cuenta de Correo solamente dando like a la pagina de Facebook de SIICOM-MX." class="tooltip" target="_blank"><img src="https://lh3.googleusercontent.com/-H8xMuAxM-bE/UefWwJr2vwI/AAAAAAAAEdY/N5I41q19KMk/s32-no/facebook.png"><a/></h1>
                         <span>Servicios Integrales en Internet y Cómputo de México</span>
                         <ul class="crumb">
                             <li><a href="index.php">Inicio</a></li>

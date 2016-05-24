@@ -9,8 +9,6 @@ jQuery(document).ready(function() {
 			indent: '-'
 		});
 	});
-	
-	
 	// --------------------------------------------------
 	// paralax background
 	// --------------------------------------------------
@@ -27,8 +25,6 @@ jQuery(document).ready(function() {
  	});
 	document.createElement("article");
 	document.createElement("section");
-	
-	
 	// --------------------------------------------------
 	// sticky header
 	// --------------------------------------------------
@@ -40,10 +36,6 @@ jQuery(document).ready(function() {
             console.log(fromTop);
             jQuery("body").toggleClass("down", (fromTop > 100));
         });
-	
-	
-	
-	
 	window.onresize = function(event) {
 		jQuery('#gallery').isotope('reLayout');
   	};
@@ -55,7 +47,6 @@ jQuery(document).ready(function() {
 	jQuery("area[data-type^='prettyPhoto']").prettyPhoto();
 	jQuery(".gallery:first a[data-type^='prettyPhoto']").prettyPhoto({animation_speed:'fast',theme:'pp_default',slideshow:3000, autoplay_slideshow: false});
 	jQuery(".gallery:gt(0) a[data-type^='prettyPhoto']").prettyPhoto({animation_speed:'fast',slideshow:10000, hideflash: true});
-		
 	jQuery("#custom_content a[data-type^='prettyPhoto']:first").prettyPhoto({
 		custom_markup: '<div id="map_canvas" style="width:260px; height:265px"></div>',
 		changepicturecallback: function(){ initialize(); }
@@ -64,8 +55,6 @@ jQuery(document).ready(function() {
 		custom_markup: '<div id="bsap_1259344" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div><div id="bsap_1237859" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6" style="height:260px"></div><div id="bsap_1251710" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div>',
 		changepicturecallback: function(){ _bsap.exec(); }
 	});
-	
-	
 	// --------------------------------------------------
 	// scroll to top
 	// --------------------------------------------------

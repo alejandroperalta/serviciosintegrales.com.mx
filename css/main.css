@@ -5,7 +5,9 @@
 @import url("prettyPhoto.css");
 @import url("flexslider.css");
 @import url("style.css");
+@import url("styles.css");
 @import url("switcher.css");
+
 
 #contpaqi{
 	padding-bottom: 40px;
@@ -17,3 +19,39 @@
 	margin: 0 auto; 
 	text-align: center;
 }
+.tooltip {
+    display: inline;
+    position: relative;
+    opacity: .95;
+   -moz-opacity: .95;
+   filter:alpha(opacity=95);
+   /*Tooltip config*/
+  }
+  .tooltip:hover:after {
+      top: 32px; /*cuadrado debajo*/   
+    content: attr(original-title); /* este es el texto que será mostrado */
+    left: 20%;
+    position: absolute;
+    z-index: 500;
+    background: gray ;
+    border-radius: 5px;
+    color: #FFF; /* el color del texto */
+    font-family: Georgia;
+    font-size: 12px;
+    padding: 5px 100px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    width: 450px;
+  }
+  .tooltip:hover:before {
+    top: 26px; /*triangulo debajo*/
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 500;
+    /* el triángulo inferior */
+    border: solid;
+    border-color: gray transparent;
+    border-width: 0 6px 6px 6px; /*Triangulo sentido arriba*/
+
+  }
